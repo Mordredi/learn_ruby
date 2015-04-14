@@ -54,6 +54,7 @@ class TestCalculator < MiniTest::Test
 
 # http://en.wikipedia.org/wiki/Factorial
   def test_computes_factorial_0
+
   end
 
   def test_computes_factorial_1
