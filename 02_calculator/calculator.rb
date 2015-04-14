@@ -13,3 +13,7 @@ def sum(array)
     0
   end
 end
+
+def multiply(*nums)
+  nums.inject(:*)
+end
