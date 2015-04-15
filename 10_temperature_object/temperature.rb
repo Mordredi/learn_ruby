@@ -32,7 +32,13 @@ class Temperature
 end
 
 class Celcius < Temperature
+  def initialize(temp)
+    @temp = temp
+  end
 end
 
 class Fahrenheit < Temperature
+  def initialize(temp)
+    @temp = temp
+  end
 end
